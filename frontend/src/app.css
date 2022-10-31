@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: 'Inter', sans-serif;
+    color: var(--text);
+    background-color: var(--bg);
+}
+
+:root {
+    --bg: #141A1E;
+    --menu: #141A1E;
+    --button: #202934;
+    --modal: #0D1520;
+    --card: #202934;
+    --border: #1C2129;
+    --text: #ffffff;
+    --surface: #202934;
+    --onSurface: #252F3C;
+    --input: #121c27;
+    --primary: #A8B8FE;
+    --hover: #dadada;
+    --error: #ff4a9e;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

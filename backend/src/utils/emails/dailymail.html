@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Daily Mail</title>
+            <style>
+                *{
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    font-size: 16px;
+                    list-style: none;
+                    font-family: 'Inter', sans-serif;
+                    color: black;
+                }
+            </style>
+        </head>
+        <body>
+            <p>Good Morning ${user.fullName.split(' ')[0]}</p>,
+            <br />
+            <p>${birthday}</p>
+            <br />
+            <p>${contact_text != '' ? 'You should contact these people today: <br />' + contact_text : ''}</p>
+            <br />
+            <p>${birthday_text != '' ? 'Dont forget to wish a happy birthday to: <br />' + birthday_text : ''}</p>
+            <br />
+            <p>${todo.length > 0 ? 'I also want to remind you to: <br />' + task_text : ''}</p>
+            <br />
+            <p>Have a great day ahead!</p>
+        </body>
+        </html>
